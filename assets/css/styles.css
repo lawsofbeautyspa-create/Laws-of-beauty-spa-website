@@ -1185,6 +1185,11 @@ p {
   color: var(--color-crimson);
 }
 
+/* Long email addresses wrap instead of overflowing on narrow phones */
+a[href^="mailto:"] {
+  overflow-wrap: anywhere;
+}
+
 .contact-form {
   background-color: var(--color-white);
   padding: clamp(2rem, 3vw, 3rem);

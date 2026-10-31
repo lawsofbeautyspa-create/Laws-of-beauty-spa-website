@@ -50,6 +50,7 @@ Every page loads the same `styles.css` and `main.js`, so a style change applies 
 | A course (name, description, duration, schedule, photo) | Course cards in `index.html` and `courses.html`. The course name also appears in the course dropdown in `index.html` and `apply.html`, and in the footer of every page. |
 | Add or remove a course | Same places as above. On `courses.html`, set the card's `data-category` to `beauty`, `hair`, or `fashion` so the filters work. A course in two areas lists both, separated by a space (`data-category="beauty hair"`). |
 | Phone numbers | Contact section and footer of every page, the location section, and `WHATSAPP_NUMBER` in `assets/js/main.js` |
+| Email addresses (info@ and admin@) | Contact section (`index.html`, `apply.html`), the location section, the footer of every page, the Privacy and Terms contact sections, and `"email"` in the structured data in `index.html` |
 | Map location | `ACADEMY` in `assets/js/main.js` and the map `<iframe>` in each page's location section |
 | Colours and fonts | Variables at the top of `assets/css/styles.css` |
 | Gallery photos | `gallery.html`. Give each item a `data-category` that matches a filter button. |
@@ -60,7 +61,7 @@ Upload the whole folder to any static host, such as Netlify, Vercel, GitHub Page
 
 1. Serve the site over **HTTPS**. The route finder needs it.
 2. Set `404.html` as the "not found" page. Netlify and GitHub Pages do this automatically. On Apache/cPanel, add `ErrorDocument 404 /404.html` to `.htaccess`.
-3. If the domain is not `www.lawsofbeautyacademy.org`, replace it in `sitemap.xml`, `robots.txt`, and the `canonical` / `og:url` tags in each page's `<head>`.
+3. If the domain is not `www.lawsofbeautyacademy.com`, replace it in `sitemap.xml`, `robots.txt`, and the `canonical` / `og:url` tags in each page's `<head>`.
 
 ## Before launch – please confirm
 
