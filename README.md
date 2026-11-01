@@ -23,11 +23,12 @@ assets/
   js/main.js          All scripts, shared by every page
   img/logo-full.jpg   Full logo with wordmark (original artwork)
   img/logo-mark.webp  Logo emblem (header and footer)
-  img/favicon.*       Browser tab icon (.ico and 32px .png)
+  img/favicon*         Browser tab and Google search icon (.ico with 16/32/48px, and 32/48/192px .png)
   img/icon-*.png      Home-screen icons (iPhone and Android)
   img/og-image.png    Preview image shown when the site is shared on WhatsApp, Facebook, etc.
   img/studio/         Photos of the academy studio (gallery and course cards)
   img/graduation/     Graduation ceremony and academy front photos (hero, about, gallery)
+favicon.ico           Copy of the icon at the site root, where Google and browsers also look
 robots.txt            Search engine rules
 sitemap.xml           Page list for search engines
 site.webmanifest      App name and icons for phones
